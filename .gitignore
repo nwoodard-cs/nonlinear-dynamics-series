@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# VS Directory Files 
+x64/
+nonlinear-dynamics.vcxproj
+nonlinear-dynamics.vcxproj.filters
