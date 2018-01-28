@@ -1,11 +1,10 @@
-//TODO: Add #ifdef ONE_DIMENSIONAL_MAP
-
 #include <iostream>
 #include <cstddef>
 
 void firstTrajectory() {
 	size_t n = 28; // Start value
-	size_t T = 50; // Number of iterations
+	size_t T = 300; // Number of iterations
+	//unsigned long long n = 998123456789; // Even this n will fall to the same periodic sequence of [4,2,1,4,2,1...]
 
 	for (size_t i = 0; i < T; i++) {
 		if (n % 2 == 0) { n = n / 2; } // If n is even, n = n/2
